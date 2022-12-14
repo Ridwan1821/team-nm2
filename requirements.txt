@@ -3,4 +3,3 @@ pandas==1.4.4
 streamlit==1.15.2
 Pillow==9.2.0
 pickleshare==0.7.5
-pickle==4.0

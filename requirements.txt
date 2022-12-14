@@ -3,4 +3,4 @@ pandas==1.4.4
 streamlit==1.15.2
 Pillow==9.2.0
 pickleshare==0.7.5
-sklearn==1.0.2
+sklearn==0.0.post1

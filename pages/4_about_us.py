@@ -44,7 +44,7 @@ def main():
         with col1:
                 st.image(img7, caption="Data Scientist: Iman Fasasi", use_column_width=False)
         with col2:
-                st.write("Iman Fasasi is a Data Scientist and an advocate of good Eco system. She has a B.Sc in Computer Science and she has acquired several data science cerfitications.  \nShe is being driven to achieve this project by her love for the Eco system")
+                st.write("Iman Fasasi is a Data Scientist and an advocate of good Eco system. She has a B.Sc in Computer Science and she has acquired several data science certifications.  \nShe is being driven to achieve this project by her love for the Eco system")
         with col3:
                 st.write("")
         img8 = Image.open('ridwan.png')

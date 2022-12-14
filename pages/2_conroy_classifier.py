@@ -46,8 +46,11 @@ vectorizer = pickle.load(open("resources/vect.pkl","rb"))
 # The main function where we will build the actual app
 def main():
         """Tweet Classifier App with Streamlit """
+        #img = Image.open('conroy.png')
+        #st.image(img, caption=None, width=450)
         img = Image.open('conroy.png')
-        st.image(img, caption=None, width=450)
+        img1 = img.resize((600,100))
+        st.image(img1, caption=None, use_column_width=False)
 	# Creates a main title and subheader on your page -
 	# these are static across all pages
         #st.title("Tweet Classifer")

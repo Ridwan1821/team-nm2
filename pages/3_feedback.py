@@ -28,5 +28,9 @@ def main():
         st.text_area("Enter reply to question 5","Type Here")
         st.markdown("")
         st.markdown("Thank you for using this app. Be assured your reviews are going to lead to improvements on the app.")
+
 if __name__ == '__main__':
 	main()
+
+if st.button("Submit Review"):
+        st.success("Your review has been submitted. Thank you.")
